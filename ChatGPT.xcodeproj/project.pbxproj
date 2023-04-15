@@ -11,6 +11,12 @@
 		046901EE29EA874800CCD7DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046901ED29EA874800CCD7DB /* ContentView.swift */; };
 		046901F029EA874900CCD7DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046901EF29EA874900CCD7DB /* Assets.xcassets */; };
 		046901F329EA874900CCD7DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046901F229EA874900CCD7DB /* Preview Assets.xcassets */; };
+		046901FA29EA882700CCD7DB /* ChatGPTAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046901F929EA882700CCD7DB /* ChatGPTAPI.swift */; };
+		046901FC29EA904300CCD7DB /* ChatGPTAPIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046901FB29EA904300CCD7DB /* ChatGPTAPIModels.swift */; };
+		046901FE29EA9E8100CCD7DB /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046901FD29EA9E8100CCD7DB /* ViewModel.swift */; };
+		0469020029EA9EBA00CCD7DB /* MessageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046901FF29EA9EBA00CCD7DB /* MessageRow.swift */; };
+		0469020229EAA0F400CCD7DB /* DotLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469020129EAA0F400CCD7DB /* DotLoadingView.swift */; };
+		0469020729EAA1A400CCD7DB /* MessageRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469020629EAA1A400CCD7DB /* MessageRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		046901ED29EA874800CCD7DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		046901EF29EA874900CCD7DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		046901F229EA874900CCD7DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		046901F929EA882700CCD7DB /* ChatGPTAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTAPI.swift; sourceTree = "<group>"; };
+		046901FB29EA904300CCD7DB /* ChatGPTAPIModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTAPIModels.swift; sourceTree = "<group>"; };
+		046901FD29EA9E8100CCD7DB /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		046901FF29EA9EBA00CCD7DB /* MessageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRow.swift; sourceTree = "<group>"; };
+		0469020129EAA0F400CCD7DB /* DotLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotLoadingView.swift; sourceTree = "<group>"; };
+		0469020629EAA1A400CCD7DB /* MessageRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +64,13 @@
 			isa = PBXGroup;
 			children = (
 				046901EB29EA874800CCD7DB /* ChatGPTApp.swift */,
+				046901F929EA882700CCD7DB /* ChatGPTAPI.swift */,
+				046901FB29EA904300CCD7DB /* ChatGPTAPIModels.swift */,
 				046901ED29EA874800CCD7DB /* ContentView.swift */,
+				0469020629EAA1A400CCD7DB /* MessageRowView.swift */,
+				0469020129EAA0F400CCD7DB /* DotLoadingView.swift */,
+				046901FD29EA9E8100CCD7DB /* ViewModel.swift */,
+				046901FF29EA9EBA00CCD7DB /* MessageRow.swift */,
 				046901EF29EA874900CCD7DB /* Assets.xcassets */,
 				046901F129EA874900CCD7DB /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046901FE29EA9E8100CCD7DB /* ViewModel.swift in Sources */,
+				0469020229EAA0F400CCD7DB /* DotLoadingView.swift in Sources */,
+				046901FA29EA882700CCD7DB /* ChatGPTAPI.swift in Sources */,
+				0469020029EA9EBA00CCD7DB /* MessageRow.swift in Sources */,
 				046901EE29EA874800CCD7DB /* ContentView.swift in Sources */,
+				046901FC29EA904300CCD7DB /* ChatGPTAPIModels.swift in Sources */,
 				046901EC29EA874800CCD7DB /* ChatGPTApp.swift in Sources */,
+				0469020729EAA1A400CCD7DB /* MessageRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
